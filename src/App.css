@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Courgette', cursive;;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.menuHeader {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  font-size: 20px;
+}
+.menuHeader a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  font-size: 20px;
+}    
+.menuHeader li {
+  list-style-type: none; 
+}  
+.menuHeader li a {
+  text-decoration: none;
+}
+.menuHeader li a:hover {
+  color: #0a0a0a;
+}
+
+.menuFooter {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}    
+.menuFooter li {
+  list-style-type: none; 
+}
+
+.barraNegra{
+  padding: 1rem;
+  margin: 1rem;
+  background-color: black;
+}
+
+.colorLetra{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.redSocial {
+  border-radius: 50%;
+  width: 75%; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.foto{
+  width: 100%; 
 }
