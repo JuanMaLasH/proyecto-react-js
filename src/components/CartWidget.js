@@ -3,7 +3,7 @@ import {TiShoppingCart} from 'react-icons/ti';
 const CartWidget = () => {
     return (
         <div>
-            <TiShoppingCart  size={60} color="black" />
+            <TiShoppingCart  size={60} color='black' />
         </div>
     )
 }

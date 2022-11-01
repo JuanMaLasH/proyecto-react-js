@@ -13,6 +13,7 @@ body {
 .menuHeader {
   display: flex;
   flex-direction: row;
+  text-align: center;
   font-size: 20px;
 }
 .menuHeader a {
@@ -29,6 +30,59 @@ body {
 }
 .menuHeader li a:hover {
   color: #0a0a0a;
+}
+
+.logoPrincipal{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 15px;
+}
+
+.itemList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.item{
+  transition: all 0.15s ease-in-out;
+}
+
+.item:hover{
+  box-shadow: 0px 0px 12px 0.2px #ccc;
+}
+
+.descuento{
+  background-color: yellow;
+  display: inline-block;
+  padding: 5px 5px;
+  border-radius: 20px;
+}
+
+.verDetalle{
+  background-color: black;
+  display: inline-block;
+  padding: 5px 5px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.verDetalle a{
+  text-decoration: none;
+  color: white;
+}
+
+.precioLista{
+  text-decoration: line-through;
+}
+
+.active{
+  border-radius: 10px;
+  border: solid 2px black;
 }
 
 .menuFooter {
@@ -57,4 +111,34 @@ body {
 
 .foto{
   width: 100%; 
+}
+
+.fotoTienda{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+}
+
+.counter{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.detail {
+  display: flex;
+  align-items: flex-start;
+}
+
+.fotoDetail{
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.contenedorDetalle{
+  padding: 10px;
+  margin: 10px;
 }
