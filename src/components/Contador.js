@@ -1,36 +1,33 @@
 import { useState } from 'react';
 
-const Contador = ({ stock, onAdd }) => {
+const Contador = ({ stock, onAdd, initial=1 }) => {
 
-    const [count, setCount] = useState (1);
+    const [cantidad, setCantidad] = useState (initial);
 
     const sumar = () => {
-        if (count < stock) {
-            setCount (count + 1);
-        }
+        cantidad < stock && setCantidad(cantidad + 1);
     };
 
     const restar = () => {
-        if (count > 1) {
-            setCount (count - 1);
+        if (cantidad > 1) {
+            setCantidad (cantidad - 1);
         }
     };
 
-    const reset = () => {
-        setCount(0);
+    const agregar = () => {
+        onAdd(cantidad);
     };
 
-    const agregar = () => onAdd(count);
-
     return (
-        <div className='counter'>
+        <div className='container counter text-center p-1'>
+            <div className='cantidadSumarRestar'>
             <button onClick={restar}>-</button>
-            <p className='text-center'>
-                {count}
+            <p>
+                {cantidad}
             </p>
-            <button disabled={count === stock} onClick={sumar}>+</button>
-            <button onClick={reset}>Volver a 0</button>
-            <button onClick={agregar}>Agregar al carrito</button>
+            <button disabled={cantidad === stock} onClick={sumar}>+</button>
+            </div>
+            <button className="add btn btn-dark" onClick={agregar}>Agregar al carrito</button>
         </div>
     );
 };

@@ -7,6 +7,7 @@ export const products = [
         precio: 12154,
         category: 'almacenamiento-interno',
         stock: 15,
+        caracteristicas: 'Tipo de Conexión: SATA - Consumo: 5w - Tipo de Disco: Mecánico'
     },
     {
         id: 2,
@@ -16,6 +17,7 @@ export const products = [
         precio: 21285,
         category: 'almacenamiento-interno',
         stock: 8,
+        caracteristicas: 'Tipo de Conexión: SATA - Consumo: 12w - Tipo de Disco: Mecánico'
     },
     {
         id: 3,
@@ -25,6 +27,7 @@ export const products = [
         precio: 22292,
         category: 'almacenamiento-interno',
         stock: 10,
+        caracteristicas: 'Tipo de Conexión: SATA - Consumo: 8w - Tipo de Disco: Mecánico'
     },
     {
         id: 4,
@@ -34,6 +37,7 @@ export const products = [
         precio: 28086,
         category: 'almacenamiento-interno',
         stock: 12,
+        caracteristicas: 'Tipo de Conexión: SATA - Consumo: 11w - Tipo de Disco: Mecánico'
     },
     {
         id: 5,
@@ -43,6 +47,7 @@ export const products = [
         precio: 44836,
         category: 'almacenamiento-interno',
         stock: 10,
+        caracteristicas: 'Tipo de Conexión: SATA - Consumo: 8w - Tipo de Disco: Mecánico'
     },
     {
         id: 6,
@@ -52,6 +57,7 @@ export const products = [
         precio: 50000,
         category: 'almacenamiento-interno',
         stock: 5,
+        caracteristicas: 'Tipo de Conexión: SATA - Consumo: 10w - Tipo de Disco: Mecánico'
     },
     {
         id: 7,
@@ -61,6 +67,7 @@ export const products = [
         precio: 7053,
         category: 'almacenamiento-interno',
         stock: 10,
+        caracteristicas: 'Tipo de Conexión: SATA - Consumo: 5w - Tipo de Disco: Sólido'
     },
     {
         id: 8,
@@ -70,6 +77,7 @@ export const products = [
         precio: 7431,
         category: 'almacenamiento-interno',
         stock: 5,
+        caracteristicas: 'Tipo de Conexión: SATA - Consumo: 5w - Tipo de Disco: Sólido'
     },
     {
         id: 9,
@@ -79,6 +87,7 @@ export const products = [
         precio: 11335,
         category: 'almacenamiento-interno',
         stock: 15,
+        caracteristicas: 'Tipo de Conexión: SATA - Consumo: 5w - Tipo de Disco: Sólido'
     },
     {
         id: 10,
@@ -88,6 +97,7 @@ export const products = [
         precio: 13035,
         category: 'almacenamiento-interno',
         stock: 20,
+        caracteristicas: 'Tipo de Conexión: M2 - Consumo: 2w - Tipo de Disco: Sólido',
     },
     {
         id: 11,
@@ -97,6 +107,7 @@ export const products = [
         precio: 21159,
         category: 'almacenamiento-interno',
         stock: 3,
+        caracteristicas: 'Tipo de Conexión: SATA - Consumo: 3w - Tipo de Disco: Sólido',
     },
     {
         id: 12,
@@ -106,6 +117,7 @@ export const products = [
         precio: 21335,
         category: 'almacenamiento-interno',
         stock: 5,
+        caracteristicas: 'Tipo de Conexión: SATA - Consumo: 3w - Tipo de Disco: Sólido',
     },
     {
         id: 13,
@@ -115,6 +127,7 @@ export const products = [
         precio: 11398,
         category: 'fuentes-de-alimentacion',
         stock: 10,
+        caracteristicas: 'Watts Nominal: 500w - Watts Real: 456w - Certificación: 80 PLUS Bronze',
     },
     {
         id: 14,
@@ -124,6 +137,7 @@ export const products = [
         precio: 13035,
         category: 'fuentes-de-alimentacion',
         stock: 20,
+        caracteristicas: 'Watts Nominal: 600w - Watts Real: 552w - Certificación: 80 PLUS Bronze',
     },
     {
         id: 15,
@@ -133,6 +147,7 @@ export const products = [
         precio: 15050,
         category: 'fuentes-de-alimentacion',
         stock: 7,
+        caracteristicas: 'Watts Nominal: 700w - Watts Real: 650w - Certificación: 80 PLUS Bronze',
     },
     {
         id: 16,
@@ -142,6 +157,7 @@ export const products = [
         precio: 18010,
         category: 'fuentes-de-alimentacion',
         stock: 10,
+        caracteristicas: 'Watts Nominal: 800w - Watts Real: 800w - Certificación: 80 PLUS Bronze',
     },
     {
         id: 17,
@@ -151,6 +167,7 @@ export const products = [
         precio: 21914,
         category: 'fuentes-de-alimentacion',
         stock: 8,
+        caracteristicas: 'Watts Nominal: 750w - Watts Real: 750w - Certificación: 80 PLUS Bronze',
     },
     {
         id: 18,
@@ -160,6 +177,7 @@ export const products = [
         precio: 43892,
         category: 'fuentes-de-alimentacion',
         stock: 10,
+        caracteristicas: 'Watts Nominal: 750w - Watts Real: 750w - Certificación: 80 PLUS Gold',
     },
     {
         id: 19,
@@ -169,6 +187,7 @@ export const products = [
         precio: 7557,
         category: 'gabinetes-perifericos',
         stock: 11,
+        caracteristicas: 'Ancho: 211mm - Alto: 480mm - Profundidad: 432mm',
     },
     {
         id: 20,
@@ -178,6 +197,7 @@ export const products = [
         precio: 9446,
         category: 'gabinetes-perifericos',
         stock: 15,
+        caracteristicas: 'Ancho: 215mm - Alto: 495mm - Profundidad: 438mm',
     },
     {
         id: 21,
@@ -187,6 +207,7 @@ export const products = [
         precio: 10327,
         category: 'gabinetes-perifericos',
         stock: 10,
+        caracteristicas: 'Ancho: 200mm - Alto: 426mm - Profundidad: 362mm',
     },
     {
         id: 22,
@@ -196,6 +217,7 @@ export const products = [
         precio: 10516,
         category: 'gabinetes-perifericos',
         stock: 20,
+        caracteristicas: 'Ancho: 200mm - Alto: 426mm - Profundidad: 362mm',
     },
     {
         id: 23,
@@ -205,6 +227,7 @@ export const products = [
         precio: 11461,
         category: 'gabinetes-perifericos',
         stock: 10,
+        caracteristicas: 'Ancho: 250mm - Alto: 591mm - Profundidad: 565mm',
     },
     {
         id: 24,
@@ -214,6 +237,7 @@ export const products = [
         precio: 13728,
         category: 'gabinetes-perifericos',
         stock: 15,
+        caracteristicas: 'Ancho: 243mm - Alto: 577mm - Profundidad: 586mm',
     },
     {
         id: 25,
@@ -223,6 +247,7 @@ export const products = [
         precio: 14987,
         category: 'gabinetes-perifericos',
         stock: 30,
+        caracteristicas: 'Ancho: 210mm - Alto: 454mm - Profundidad: 416mm',
     },
     {
         id: 26,
@@ -232,6 +257,7 @@ export const products = [
         precio: 16940,
         category: 'gabinetes-perifericos',
         stock: 15,
+        caracteristicas: 'Ancho: 210mm - Alto: 479mm - Profundidad: 442mm',
     },
     {
         id: 27,
@@ -241,6 +267,7 @@ export const products = [
         precio: 20781,
         category: 'gabinetes-perifericos',
         stock: 10,
+        caracteristicas: 'Ancho: 205mm - Alto: 485mm - Profundidad: 415mm',
     },
     {
         id: 28,
@@ -250,6 +277,7 @@ export const products = [
         precio: 52519,
         category: 'gabinetes-perifericos',
         stock: 20,
+        caracteristicas: 'Tipo de Iluminación: LED - Tipo de Panel: TN - Pantalla Curva: No',
     },
     {
         id: 29,
@@ -259,6 +287,7 @@ export const products = [
         precio: 56360,
         category: 'gabinetes-perifericos',
         stock: 10,
+        caracteristicas: 'Tipo de Iluminación: LED - Tipo de Panel: TN - Pantalla Curva: No',
     },
     {
         id: 30,
@@ -268,6 +297,7 @@ export const products = [
         precio: 75430,
         category: 'gabinetes-perifericos',
         stock: 8,
+        caracteristicas: 'Tipo de Iluminación: LED - Tipo de Panel: IPS - Pantalla Curva: No',
     },
     {
         id: 31,
@@ -277,6 +307,7 @@ export const products = [
         precio: 83249,
         category: 'gabinetes-perifericos',
         stock: 2,
+        caracteristicas: 'Tipo de Iluminación: LED - Tipo de Panel: IPS - Pantalla Curva: No',
     },
     {
         id: 32,
@@ -286,6 +317,7 @@ export const products = [
         precio: 94962,
         category: 'gabinetes-perifericos',
         stock: 3,
+        caracteristicas: 'Tipo de Iluminación: LED - Tipo de Panel: IPS - Pantalla Curva: No',
     },
     {
         id: 33,
@@ -295,6 +327,7 @@ export const products = [
         precio: 125063,
         category: 'gabinetes-perifericos',
         stock: 10,
+        caracteristicas: 'Tipo de Iluminación: LED - Tipo de Panel: VA - Pantalla Curva: Si',
     },
     {
         id: 34,
@@ -304,6 +337,7 @@ export const products = [
         precio: 4471,
         category: 'gabinetes-perifericos',
         stock: 15,
+        caracteristicas: 'Tipo de Teclado: Completo - Idioma: Español - Tipo de Mecanismo: Membrana',
     },
     {
         id: 35,
@@ -313,6 +347,7 @@ export const products = [
         precio: 6171,
         category: 'gabinetes-perifericos',
         stock: 10,
+        caracteristicas: 'Tipo de Teclado: Compacto TKL - Idioma: Español - Tipo de Mecanismo: Mecánico',
     },
     {
         id: 36,
@@ -322,6 +357,7 @@ export const products = [
         precio: 8942,
         category: 'gabinetes-perifericos',
         stock: 10,
+        caracteristicas: 'Tipo de Teclado: Compacto TKL - Idioma: Español - Tipo de Mecanismo: Mecánico',
     },
     {
         id: 37,
@@ -331,6 +367,7 @@ export const products = [
         precio: 9761,
         category: 'gabinetes-perifericos', 
         stock: 12,
+        caracteristicas: 'Tipo de Teclado: CompletoL - Idioma: Inglés - Tipo de Mecanismo: Mecánico',
     },
     {
         id: 38,
@@ -340,6 +377,7 @@ export const products = [
         precio: 16688,
         category: 'gabinetes-perifericos',
         stock: 8,
+        caracteristicas: 'Tipo de Teclado: Compacto 60% - Idioma: Inglés - Tipo de Mecanismo: Mecánico',
     },
     {
         id: 39,
@@ -349,6 +387,7 @@ export const products = [
         precio: 24307,
         category: 'gabinetes-perifericos', 
         stock: 10,
+        caracteristicas: 'Tipo de Teclado: Completo - Idioma: Inglés - Tipo de Mecanismo: Mecánico',
     },
     {
         id: 40,
@@ -358,6 +397,7 @@ export const products = [
         precio: 3401,
         category: 'gabinetes-perifericos', 
         stock: 15,
+        caracteristicas: 'Cantidad de botones: 7 - Inalámbrico: No',
     },
     {
         id: 41,
@@ -367,6 +407,7 @@ export const products = [
         precio: 4660,
         category: 'gabinetes-perifericos', 
         stock: 20,
+        caracteristicas: 'Cantidad de botones: 8 - Inalámbrico: No',
     },
     {
         id: 42,
@@ -376,6 +417,7 @@ export const products = [
         precio: 5227,
         category: 'gabinetes-perifericos', 
         stock: 10,
+        caracteristicas: 'Cantidad de botones: 6 - Inalámbrico: No',
     },
     {
         id: 43,
@@ -385,6 +427,7 @@ export const products = [
         precio: 5353,
         category: 'gabinetes-perifericos', 
         stock: 11,
+        caracteristicas: 'Cantidad de botones: 18 - Inalámbrico: No',
     },
     {
         id: 44,
@@ -394,6 +437,7 @@ export const products = [
         precio: 8375,
         category: 'gabinetes-perifericos', 
         stock: 5,
+        caracteristicas: 'Cantidad de botones: 7 - Inalámbrico: No',
     },
     {
         id: 45,
@@ -403,6 +447,7 @@ export const products = [
         precio: 9509,
         category: 'gabinetes-perifericos', 
         stock: 10,
+        caracteristicas: 'Cantidad de botones: 11 - Inalámbrico: No',
     },
     {
         id: 46,
@@ -412,6 +457,7 @@ export const products = [
         precio: 9257,
         category: 'memorias-RAM',
         stock: 10, 
+        caracteristicas: 'Capacidad: 8gb - Velocidad: 3200mhz - Tipo: DDR4',
     },
     {
         id: 47,
@@ -421,6 +467,7 @@ export const products = [
         precio: 16310,
         category: 'memorias-RAM', 
         stock: 5,
+        caracteristicas: 'Capacidad: 16gb - Velocidad: 3000mhz - Tipo: DDR4',
     },
     {
         id: 48,
@@ -430,6 +477,7 @@ export const products = [
         precio: 19458,
         category: 'memorias-RAM', 
         stock: 15,
+        caracteristicas: 'Capacidad: 16gb - Velocidad: 3000mhz - Tipo: DDR4',
     },
     {
         id: 49,
@@ -439,6 +487,7 @@ export const products = [
         precio: 27207,
         category: 'memorias-RAM', 
         stock: 12,
+        caracteristicas: 'Capacidad: 32gb - Velocidad: 2666mhz - Tipo: DDR4',
     },
     {
         id: 50,
@@ -448,6 +497,7 @@ export const products = [
         precio: 29723,
         category: 'memorias-RAM', 
         stock: 6,
+        caracteristicas: 'Capacidad: 16gb - Velocidad: 5200mhz - Tipo: DDR5',
     },
     {
         id: 51,
@@ -457,6 +507,7 @@ export const products = [
         precio: 36461,
         category: 'memorias-RAM', 
         stock: 7,
+        caracteristicas: 'Capacidad: 32gb - Velocidad: 2666mhz - Tipo: DDR4',
     },
     {
         id: 52,
@@ -466,6 +517,7 @@ export const products = [
         precio: 86335,
         category: 'tarjetas-de-video',
         stock: 10,
+        caracteristicas: 'Tipo: pcie - Chipset GPU: GTX 1660 Super - Entrada de Video: No',
     },
     {
         id: 53,
@@ -475,6 +527,7 @@ export const products = [
         precio: 98929,
         category: 'tarjetas-de-video',
         stock: 5,
+        caracteristicas: 'Tipo: pcie - Chipset GPU: RXT 2060 TI Super - Entrada de Video: No',
     },
     {
         id: 54,
@@ -484,6 +537,7 @@ export const products = [
         precio: 215113, 
         category: 'tarjetas-de-video',
         stock: 3,
+        caracteristicas: 'Tipo: pcie - Chipset GPU: RXT 3070 TI Super - Entrada de Video: No',
     },
     {
         id: 55,
@@ -493,6 +547,7 @@ export const products = [
         precio: 66814, 
         category: 'tarjetas-de-video',
         stock: 10,
+        caracteristicas: 'Tipo: pcie - Chipset GPU: RX 570 - Entrada de Video: No',
     },
     {
         id: 56,
@@ -502,6 +557,7 @@ export const products = [
         precio: 106045,
         category: 'tarjetas-de-video',
         stock: 5,
+        caracteristicas: 'Tipo: pcie - Chipset GPU: RX 6600 - Entrada de Video: No',
     },
     {
         id: 57,
@@ -511,6 +567,7 @@ export const products = [
         precio: 115113,
         category: 'tarjetas-de-video',
         stock: 2,
+        caracteristicas: 'Tipo: pcie - Chipset GPU: RX 5600 XT - Entrada de Video: No',
     },
     {
         id: 58,
@@ -520,6 +577,7 @@ export const products = [
         precio: 134446, 
         category: 'tarjetas-de-video',
         stock: 3,
+        caracteristicas: 'Tipo: pcie - Chipset GPU: RX 6700 XT - Entrada de Video: No',
     },
     {
         id: 59,
@@ -529,6 +587,7 @@ export const products = [
         precio: 161856,
         category: 'tarjetas-de-video',
         stock: 10,
+        caracteristicas: 'Tipo: pcie - Chipset GPU: RX 6750 XT - Entrada de Video: No',
     },
     {
         id: 60,
@@ -538,6 +597,7 @@ export const products = [
         precio: 201511, 
         category: 'tarjetas-de-video',
         stock: 5,
+        caracteristicas: 'Tipo: pcie - Chipset GPU: RX 6800 XT - Entrada de Video: No',
     },
     {
         id: 61,
@@ -547,6 +607,7 @@ export const products = [
         precio: 36398,
         category: 'procesadores-y-mothers',
         stock: 5,
+        caracteristicas: 'Modelo: 4500 - Socket: AM4 APU 3th Gen - Núcleos: 6',
     },
     {
         id: 62,
@@ -556,6 +617,7 @@ export const products = [
         precio: 44332,
         category: 'procesadores-y-mothers',
         stock: 10,
+        caracteristicas: 'Modelo: 4500G - Socket: AM4 APU 3th Gen - Núcleos: 6',
     },
     {
         id: 63,
@@ -565,6 +627,7 @@ export const products = [
         precio: 52519, 
         category: 'procesadores-y-mothers',
         stock: 15,
+        caracteristicas: 'Modelo: 5600G - Socket: AM4 APU 5000 - Núcleos: 6',
     },
     {
         id: 64,
@@ -574,6 +637,7 @@ export const products = [
         precio: 71599,
         category: 'procesadores-y-mothers',
         stock: 10,
+        caracteristicas: 'Modelo: PRO 4750G - Socket: AM4 APU 3th Gen - Núcleos: 8',
     },
     {
         id: 65,
@@ -583,6 +647,7 @@ export const products = [
         precio: 85139,
         category: 'procesadores-y-mothers',
         stock: 5,
+        caracteristicas: 'Modelo: 5700X - Socket: AM4 Ryzen 4th Gen - Núcleos: 8',
     },
     {
         id: 66,
@@ -592,6 +657,7 @@ export const products = [
         precio: 87217,
         category: 'procesadores-y-mothers',
         stock: 15,
+        caracteristicas: 'Modelo: 5700G - Socket: AM4 APU 5000 - Núcleos: 8',
     },
     {
         id: 67,
@@ -601,6 +667,7 @@ export const products = [
         precio: 18955, 
         category: 'procesadores-y-mothers',
         stock: 10,
+        caracteristicas: 'Modelo: 10100F - Socket: 1200 Comet Lake - Núcleos: 4',
     },
     {
         id: 68,
@@ -610,6 +677,7 @@ export const products = [
         precio: 43325,
         category: 'procesadores-y-mothers',
         stock: 8,
+        caracteristicas: 'Modelo: Core i5 10400F - Socket: 1200 Comet Lake - Núcleos: 6',
     },
     {
         id: 69,
@@ -619,6 +687,7 @@ export const products = [
         precio: 81423,
         category: 'procesadores-y-mothers',
         stock: 10,
+        caracteristicas: 'Modelo: Core i7 10700 - Socket: 1200 Comet Lake - Núcleos: 8',
     },
     {
         id: 70,
@@ -628,6 +697,7 @@ export const products = [
         precio: 15617,
         category: 'procesadores-y-mothers',
         stock: 20,
+        caracteristicas: 'Plataforma: INTEL - Socket: 1200 Rocket Lake - Chipset Principal: INTEL B560',
     },
     {
         id: 71,
@@ -637,6 +707,7 @@ export const products = [
         precio: 18640, 
         category: 'procesadores-y-mothers',
         stock: 15,
+        caracteristicas: 'Plataforma: AMD - Socket: AM4 A-Series - Chipset Principal: AMD 320',
     },
     {
         id: 72,
@@ -646,6 +717,7 @@ export const products = [
         precio: 24559,
         category: 'procesadores-y-mothers',
         stock: 10,
+        caracteristicas: 'Plataforma: AMD - Socket: AM4 Rizen 3th Gen - Chipset Principal: AMD A520',
     },
     {
         id: 73,
@@ -655,6 +727,7 @@ export const products = [
         precio: 34131,
         category: 'procesadores-y-mothers',
         stock: 8,
+        caracteristicas: 'Plataforma: AMD - Socket: AM4 Rizen 3th Gen - Chipset Principal: AMD B550',
     },
     {
         id: 74,
@@ -664,6 +737,7 @@ export const products = [
         precio: 38854,
         category: 'procesadores-y-mothers',
         stock: 10,
+        caracteristicas: 'Plataforma: AMD - Socket: AM4 APU 1th Gen - Chipset Principal: AMD B450',
     },
     {
         id: 75,
@@ -673,6 +747,7 @@ export const products = [
         precio: 59509,
         category: 'procesadores-y-mothers',
         stock: 3,
+        caracteristicas: 'Plataforma: AMD - Socket: AM4 APU 2th Gen - Chipset Principal: AMD X570',
     },
     {
         id: 76,
@@ -682,6 +757,7 @@ export const products = [
         precio: 15617,
         category: 'procesadores-y-mothers',
         stock: 5,
+        caracteristicas: 'Plataforma: INTEL - Socket: 1151 Coffe Lake - Chipset Principal: INTEL H310',
     },
     {
         id: 77,
@@ -691,6 +767,7 @@ export const products = [
         precio: 20907,
         category: 'procesadores-y-mothers',
         stock: 10,
+        caracteristicas: 'Plataforma: INTEL - Socket: 1200 Rocket Lake-S - Chipset Principal: INTEL H510',
     },
     {
         id: 78,
@@ -700,6 +777,7 @@ export const products = [
         precio: 23048,
         category: 'procesadores-y-mothers',
         stock: 5,
+        caracteristicas: 'Plataforma: INTEL - Socket: 1200 Rocket Lake-S - Chipset Principal: INTEL B560',
     },
     {
         id: 79,
@@ -709,6 +787,7 @@ export const products = [
         precio: 38035,
         category: 'procesadores-y-mothers',
         stock: 10,
+        caracteristicas: 'Plataforma: AMD - Socket: AM4 Ryzen 3th Gen - Chipset Principal: AMD B550',
     },
     {
         id: 80,
@@ -718,6 +797,7 @@ export const products = [
         precio: 45151,
         category: 'procesadores-y-mothers',
         stock: 15,
+        caracteristicas: 'Plataforma: INTEL - Socket: 1700 Alder Lake-S - Chipset Principal: INTEL B660',
     },
     {
         id: 81,
@@ -727,13 +807,14 @@ export const products = [
         precio: 51763,
         category: 'procesadores-y-mothers',
         stock: 5,
+        caracteristicas: 'Plataforma: INTEL - Socket: 1200 Rocket Lake-S - Chipset Principal: INTEL Z590',
     }
 ];
 
 export const getProducts = (categoryName) => {
     return new Promise((res, rej) => {
         const prodFiltrados = products.filter(
-            (product) => product.category === categoryName
+            (prod) => prod.category === categoryName
         );
         const ref = categoryName ? prodFiltrados : products;
         setTimeout(() => {
@@ -747,6 +828,6 @@ export const getProduct = (idProduct) => {
     const product = products.find((prod) => prod.id === +idProduct);
     setTimeout (() => {
       res(product);
-      }, 500);
+      }, 1000);
     });
   };

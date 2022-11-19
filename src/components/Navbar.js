@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from '../assets/logos/logologo.jpg';
 import CartWidget from './CartWidget';
 import {Link, NavLink} from 'react-router-dom';
@@ -34,12 +35,12 @@ const Navbar = () => {
                     </li>
                 </ul>
                 <Link to='/cart'>
-                <CartWidget/>
+                    <CartWidget/>
                 </Link>
           </div>
         </div>
       </nav>
-    )
-}
+    );
+};
 
 export default Navbar;
