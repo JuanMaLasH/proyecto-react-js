@@ -7,7 +7,7 @@
 Este proyecto se refiere a una tienda online de venta de artículos de computación.
 
 Link para ver el proyecto deployado:
-[articulos-gamer](http://articulos-gamer.netlify.com)
+[articulos-gamer](https://articulosgamer.netlify.app/)
 
 ## Librerías utilizadas
 
